@@ -1,4 +1,153 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:fillViewport="true">
+    android:fillViewport="true"
+    android:background="@drawable/bg_main">
+
+
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity"
+        android:padding="14dp">
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+
+            <TextView
+                android:padding="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/info_tarje"/>
+
+            <Button
+                android:id="@+id/btn_Guardar"
+                android:layout_width="135dp"
+                android:layout_height="wrap_content"
+                android:background="@android:color/darker_gray"
+                android:text="@string/GDAR"
+                android:textColor="@color/blanco"
+
+                />
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/NbreID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/nbre"
+            android:inputType="text"
+            android:maxLines="1"
+             />
+
+        <EditText
+            android:id="@+id/ApdoID"
+            android:hint="@string/apell"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/tarje_NumID"
+            android:hint="@string/num_tarjeta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLength="16"
+            android:inputType="number"/>
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <EditText
+                android:id="@+id/MesID"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/mes"
+                android:maxLength="2"
+                android:inputType="number"
+                android:layout_marginRight="10dp"/>
+
+            <EditText
+                android:id="@+id/AñoID"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/a_ñ_o"
+                android:maxLength="4"
+                android:inputType="number"
+                android:layout_marginRight="10dp"/>
+
+            <EditText
+                android:id="@+id/Codigo_t_ID"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/codigo_tarjeta"
+                android:maxLength="3"
+                android:inputType="numberPassword"
+                android:layout_marginRight="10dp"/>
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dire"
+            android:padding="10dp"/>
+
+        <EditText
+            android:id="@+id/Calle_NumID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/calle_num"
+            android:inputType="text"
+            android:maxLines="1"/>
+
+        <EditText
+            android:id="@+id/CiudadID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/ciudad"
+            android:inputType="text"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/EstadoID"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/estado"
+                android:inputType="text"/>
+            <EditText
+                android:id="@+id/C_PostalID"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/postal"
+                android:inputType="number"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp">
+
+            <Button
+                android:id="@+id/botonR"
+                android:layout_width="135dp"
+                android:layout_height="wrap_content"
+                android:text="@string/registro"
+                android:background="#FF5722"
+                android:textColor="#FFFFFF" />
+            <Button
+                android:id="@+id/botonB"
+                android:layout_width="135dp"
+                android:layout_height="wrap_content"
+                android:text="BUSCAR"
+                android:layout_marginLeft="70dp"
+                android:background="#FF5722"
+                android:textColor="#FFFFFF"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

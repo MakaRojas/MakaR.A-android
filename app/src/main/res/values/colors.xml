@@ -8,7 +8,7 @@
     <color name="black">#FF000000</color>
     <color name="blanco">#FFFFFFFF</color>
     <color name="deep_purple">#512DA8</color>
-    <color name="lime">#AFB42B</color>
-
+    <color name="claro">#F0F4C3</color>
+    <color name="plomo_btn">#A39D9D</color>
 
 </resources>

@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">P.Android.Formulario</string>
+    <string name="info_tarje">información de la tarjeta de credito</string>
+    <string name="GDAR">Guardar</string>
+    <string name="nbre">Nombre</string>
+    <string name="apell">Apellido</string>
+    <string name="num_tarjeta">Numero de Tarjeta</string>
+    <string name="mes">Mes</string>
+    <string name="a_ñ_o">Año</string>
+    <string name="codigo_tarjeta">Codigo</string>
+    <string name="dire">direeccón</string>
+    <string name="calle_num">Calle y número</string>
+    <string name="ciudad">Ciudad</string>
+    <string name="estado">Estado</string>
+    <string name="postal">Codigo postal</string>
+    <string name="registro">REGISTRAR</string>
+
 </resources>
