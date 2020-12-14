@@ -134,14 +134,14 @@
             android:layout_marginTop="12dp">
 
             <Button
-                android:id="@+id/botonR"
+                android:id="@+id/botonREG"
                 android:layout_width="135dp"
                 android:layout_height="wrap_content"
                 android:text="@string/registro"
                 android:background="@color/purple_700" />
 
             <Button
-                android:id="@+id/botonB"
+                android:id="@+id/botonBUS"
                 android:layout_width="135dp"
                 android:layout_height="wrap_content"
                 android:text="@string/buscar"
