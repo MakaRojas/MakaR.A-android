@@ -14,5 +14,6 @@
     <string name="estado">Estado</string>
     <string name="postal">Codigo postal</string>
     <string name="registro">REGISTRAR</string>
+    <string name="buscar">BUSCAR</string>
 
 </resources>
